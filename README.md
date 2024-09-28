@@ -17,11 +17,11 @@ Site upload de vídeos
 
 1. Install dependencies (in both the client and server directories):
 
-cd front-end
-npm install  # or yarn install
+- cd front-end
+- npm install  # or yarn install
 
-cd back-end
-npm install  # or yarn install
+- cd back-end
+- npm install  # or yarn install
 
 2. Prisma migrations:
 
