@@ -18,6 +18,7 @@ model usuario {
   id              String   @id @default(uuid())
   nome            String   @db.VarChar(150)
   senha           String   @db.VarChar(8)
+  email           String   @db.VarChar(50)  
   data_nascimento DateTime @db.Date
   telefone        String   @db.VarChar(11)
   cpf             String   @db.VarChar(11)
