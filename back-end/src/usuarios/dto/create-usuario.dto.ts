@@ -3,10 +3,6 @@ import { UUID } from "crypto";
 
 export class CreateUsuarioDto {
 
-    @IsUUID()
-    @IsNotEmpty()
-    id: UUID;
-
     @IsString({message: "O nome deve ser uma string."})
     @Length(0,150, {message: "Precisa conter pelo menos 1 caracter"})
     @IsNotEmpty({message: "O nome deve ser obrigatório."})
