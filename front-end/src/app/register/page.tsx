@@ -32,6 +32,7 @@ export default function Register() {
     const url = `http://localhost:8000/usuarios`;
     try {
 
+      if (formData.data_nascimento)
       formData.data_nascimento = new Date(formData.data_nascimento).toISOString(); // Formata a data_nascimento formato ISO 8601
 
       const payload = JSON.stringify(formData);
