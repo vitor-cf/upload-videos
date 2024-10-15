@@ -24,6 +24,7 @@ Este projeto demonstra um sistema básico de upload de vídeos, construído com 
 
 ```bash
 git clone https://github.com/seu-usuario/upload-videos.git
+```
 
 2. Instale as dependências (nos diretórios client e server):
 
