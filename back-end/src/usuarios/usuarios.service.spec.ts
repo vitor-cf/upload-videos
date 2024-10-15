@@ -44,24 +44,24 @@ describe('UsuariosService', () => {
   describe('create', () => {
     it('should create a new user', async () => { // Teste para criação de usuário com sucesso
       const createUser = { // Dados de entrada para criar o usuário (DTO simulado)
-        id: "8a1b7896-208b-4b70-9b53-a8f74cda823d",
+        id: "8a1b7896-208b-4b70-9b53-a8f74cda823d", // informar outro uuid
         nome: "Vitor",
         email: "vitor@clipnet.com",
         senha: "password",
         data_nascimento: new Date("1999-10-30"),
         telefone: "71991182502",
-        cpf: "07529331590"
+        cpf: "00000000000"
       };
 
       // Usuário criado que esperamos receber de volta após a criação (mock)
       const createdUser = {
-        id: "8a1b7896-208b-4b70-9b53-a8f74cda823d",
+        id: "8a1b7896-208b-4b70-9b53-a8f74cda823d", // informar outro uuid
         nome: "Vitor",
         senha: "password",
         email: "vitor@clipnet.com",
         data_nascimento: new Date("1999-10-30"),
         telefone: "71991182502",
-        cpf: "07529331590",
+        cpf: "00000000000",
       };
 
       // Chama o método 'create' do serviço
