@@ -26,27 +26,33 @@ Este projeto demonstra um sistema básico de upload de vídeos, construído com 
 git clone https://github.com/seu-usuario/upload-videos.git
 ```
 
-2. Instale as dependências (nos diretórios client e server):
-
+2. **Instale as dependências (nos diretórios client e server):**
+```bash
 cd upload-videos/front-end
 npm install
 
 cd ../back-end
 npm install
+``` 
 
-3. Migrações do Prisma:
-
+3. **Migrações do Prisma:**
+```bash
 cd back-end
 cp .env.example .env  # Configure suas variáveis de ambiente
 npx prisma migrate dev
+```
 
-4. Execute as aplicações:
+4. **Execute as aplicações:**
 
-# Em um terminal, na pasta front-end:
+**Em um terminal, na pasta front-end:**
+```bash
 npm run dev
+```
 
-# Em outro terminal, na pasta back-end:
+```bash
+**Em outro terminal, na pasta back-end:**
 npm run start:dev
+```
 
 5. Executando o projeto
 
