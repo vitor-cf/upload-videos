@@ -49,8 +49,8 @@ npx prisma migrate dev
 npm run dev
 ```
 
-```bash
 **Em outro terminal, na pasta back-end:**
+```bash
 npm run start:dev
 ```
 
